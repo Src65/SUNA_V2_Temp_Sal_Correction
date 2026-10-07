@@ -360,11 +360,11 @@ def process_record(
 # USER SETTINGS - EDIT THESE PATHS IF NEEDED
 # ============================================================
 
-SUNA_DIR = Path(r"C:\Users\009855027\Documents\pumphouse")
-TS_DIR = Path(r"C:\Users\009855027\Documents\tc_lauren")
-CAL_FILE = Path(r"C:\Users\009855027\Documents\Sea-Bird-Scientific\SUNA\SUNA_1110.CAL")
+SUNA_DIR = Path(r"C:\path\to\SUNA\data")
+TS_DIR = Path(r"C:\path\to\temperature_salinity\data")
+CAL_FILE = Path(r"C:\path\to\SUNA_****.CAL")
 
-OUTPUT_DIR = Path(r"C:\Users\009855027\Documents\laurn_out")
+OUTPUT_DIR = Path(r"C:\path\to\output")
 OUTPUT_FILE = OUTPUT_DIR / "corrected_nitrate.csv"
 
 # Do not interpolate across a T/S interval larger than this.
